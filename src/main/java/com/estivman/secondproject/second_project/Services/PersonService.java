@@ -1,4 +1,4 @@
-package com.estivman.secondproject.Services;
+package com.estivman.secondproject.second_project.Services;
 
 import com.estivman.secondproject.second_project.Model.Person;
 

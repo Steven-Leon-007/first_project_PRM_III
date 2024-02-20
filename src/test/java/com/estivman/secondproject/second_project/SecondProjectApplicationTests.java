@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SecondProjectApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testAddSimpleList() {
 	}
 
 }

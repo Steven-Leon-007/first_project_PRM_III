@@ -7,6 +7,14 @@ public class Person {
 
     public Person() {
     }
+    
+
+    public Person(String name, String lastName, int weight) {
+        this.name = name;
+        this.lastName = lastName;
+        this.weight = weight;
+    }
+
 
     public String getName() {
         return name;
