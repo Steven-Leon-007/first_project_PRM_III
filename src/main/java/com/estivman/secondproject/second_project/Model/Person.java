@@ -1,13 +1,17 @@
 package com.estivman.secondproject.second_project.Model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Person {
+    @Getter
+    @Setter
     private String name;
     private String lastName;
     private int weight;
 
     public Person() {
     }
-    
 
     public Person(String name, String lastName, int weight) {
         this.name = name;
@@ -15,25 +19,4 @@ public class Person {
         this.weight = weight;
     }
 
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getLastName() {
-        return lastName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-    public int getWeight() {
-        return weight;
-    }
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
-    
 }

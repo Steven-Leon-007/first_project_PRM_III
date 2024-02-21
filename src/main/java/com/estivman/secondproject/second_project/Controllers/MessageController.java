@@ -18,21 +18,7 @@ public class MessageController {
     PersonService person;
 
     @GetMapping("/")
-    public <T> Person index() {
-        UptcList<String> list = new UptcList<>();
-        list.add("cero");
-        list.add("uno");
-        list.add("dos");
-        list.add("tres");
-        //list.show();
-        // System.out.println(list.get(1));
-        // System.out.println(list.size());
-
-        // list.add(0, "ultimo");
-
-        // list.show();
-
-        // System.out.println(list.findNode(2).getInfo() + "asjfk");
+    public <T> String index() {
 
         Person persona1 = new Person("pedro", "laverde", 45);
         Person persona2 = new Person("Diegoschi", "kalsjfkl", 80);
@@ -45,10 +31,10 @@ public class MessageController {
         test.add(persona3);
         test.add(persona3);
 
-        System.out.println(test.lastIndexOf(persona4));
+        System.out.println(test.lastIndexOf(persona3));
+        String output = "<style>body{background-color: #323232;} h1{color: #fff;}</style><h1>Into the motherland the german army march </h1><br><img src=\"https://cdn.7tv.app/emote/619ceb1beecae7a725bc91a5/4x.webp\" style=\"width: 200px;\"/>";
 
-        this.person = new PersonService();
-        return person.generatePerson();
+        return output;
     }
 
 }
