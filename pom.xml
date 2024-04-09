@@ -9,9 +9,9 @@
 		<relativePath/>
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.estivman.uptclist</groupId>
+	<groupId>com.estivman.uptc_list_library</groupId>
 	<artifactId>uptclist</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<name>uptc_list</name>
 	<description>List library for projects in Programming III class</description>
 	<properties>

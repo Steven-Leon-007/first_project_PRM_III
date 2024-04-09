@@ -1,4 +1,4 @@
-package com.estivman.secondproject.DynamicMemory;
+package com.estivman.uptc_list_library.DynamicMemory;
 
 
 public class Node<T> {
